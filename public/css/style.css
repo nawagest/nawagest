@@ -199,7 +199,7 @@ select#work-type:focus {
     justify-content: center;
     flex-direction: column;
     width: 450px;
-    height: 400px;
+    height: 425px;
     /* padding: 10px; */
     margin: 10px;
     overflow: hidden;
@@ -213,11 +213,11 @@ select#work-type:focus {
 }
 
 .project-tilte, .project-desc {
-    padding: 10px;
+    padding: 5px;
 }
 
 .project-link {
-    padding: 5px;
+    padding-bottom: 15px;
 }
 
 .resume-content {
