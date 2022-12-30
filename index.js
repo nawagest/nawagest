@@ -17,7 +17,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/blog', (req, res) => {
-    res.redirect('https://blognat.herokuapp.com')
+    res.redirect('https://blog.nawagest.repl.co/')
 })
 
 app.get('/projects', (req, res) => {
