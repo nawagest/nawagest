@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.dark {
+    background: #121212;
+    color: #eee;
+}
+
+.dark a {
+    color: #eee;
+}

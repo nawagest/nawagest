@@ -1,0 +1,89 @@
+.content {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "about about education"
+        "about about skills"
+        "socials socials socials"    
+    ;
+}
+
+.content .about__content, .content .education__content, .content .skills__content, .content .socials__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    line-height: 1.8rem;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    background: rgb(191, 191, 191);
+}
+
+.content h1 {
+    margin: 0 0 20px 0;
+}
+
+.about__content {
+    grid-area: about;
+}
+
+.education__content {
+    grid-area: education;
+}
+
+.skills__content {
+    grid-area: skills;
+}
+
+.socials__content {
+    grid-area: socials;
+}
+
+.skills-bar-container {
+    display: flex;
+    width: 100%;
+}
+
+.skills-skill {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px 0 0;
+}
+
+.skills-bars {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.socials-container {
+    display: flex;
+}
+
+.social {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.social a {
+    color: #000;
+}
+
+.content .dark {
+    background: #222222;
+}
+
+.content .dark .social a {
+    color: #eee;
+}
+
+@media screen and (max-width: 615px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}

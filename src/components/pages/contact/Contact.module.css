@@ -1,0 +1,79 @@
+.content {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "contact skillset skillset"
+        "contact skillset skillset"
+        "resume resume resume"    
+    ;
+}
+
+.content .contact__content, .content .skillset__content, .content .resume__content {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    line-height: 1.8rem;
+    margin: 10px;
+    border-radius: 15px;
+    background: rgb(191, 191, 191);
+}
+
+.content .contact__content {
+    grid-area: contact;
+}
+
+.content .skillset__content {
+    grid-area: skillset;
+}
+
+.content .resume__content {
+    grid-area: resume;
+}
+
+.list-skillset__content {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.list-section__list {
+    margin: 20px 20px 0 0;
+    height: 100%;
+    width: 100%;
+}
+
+.info-resume__content {
+    margin: 20px 0 0 0;
+}
+
+.content .dark {
+    background: #222222;
+}
+
+@media screen and (max-width: 890px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-skillset__content {
+        display: flex;
+        font-size: small;
+    }
+
+    .list-section__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .list-section__list h3,
+    .list-section__list p {
+        margin: 0 5px 0 5px;
+    }
+
+    .list-section__list h3:after {
+        content: ":";
+    }
+}

@@ -1,0 +1,55 @@
+.projects {
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(191, 191, 191);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.project-img__projects {
+    width: 500px;
+    height: auto;
+}
+
+.project-content__projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+
+.project-title__project-content {
+    margin: 0 0 20px 0;
+}
+
+.project-tags__projects {
+    display: flex;
+    margin: 75px 0 0 0;
+}
+
+.project-tag__project-tags {
+    font-size: x-large;
+}
+
+.project-link__project-content {
+    font-size: x-large;
+    color: #000;
+}
+
+.project-decription__project-content {
+    margin: 10px 0 10px 0;
+}
+
+.dark {
+    background: #222222;
+}
+
+.dark a {
+    color: #eee;
+}
+
+@media screen and (max-width: 890px) {
+    .project-img__projects {
+        display: none;
+    }
+}
