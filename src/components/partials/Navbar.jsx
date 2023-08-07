@@ -6,8 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = (props) => {
-    const { isDark } = props
+    const { isDark } = props;
 
+    console.log(isDark);
     return (
         <div className={`${styles.navbar} ${isDark === 'dark' ? styles.dark : ''}`}>
             <div className={styles['logo__container']}>
@@ -41,7 +42,7 @@ const Navbar = (props) => {
                     }}
                     className={styles['dark-mode__container']}
                 >
-                    <FontAwesomeIcon icon={props.isDark === 'light' ? faSun : faMoon }>Contact</FontAwesomeIcon>
+                    <FontAwesomeIcon icon={ isDark === 'light' ? faSun : faMoon }>Contact</FontAwesomeIcon>
                 </motion.button>
             </div>
         </div>
