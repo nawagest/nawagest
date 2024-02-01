@@ -23,7 +23,7 @@ const Projects = ({ isDark }) => {
                 faCss3Alt,
                 faReact,
             ],
-            link: 'https://quotes-react.nawagest.repl.co',
+            link: 'https://reactquotes.vercel.app/',
             repo: 'https://github.com/nawagest/'
         },
         {
@@ -36,8 +36,8 @@ const Projects = ({ isDark }) => {
                 faCss3Alt,
                 faSquareJs,
             ],
-            link: 'https://amharic.nawagest.repl.co',
-            repo: 'https://github.com/nawagest/'
+            link: 'https://amharic-app.vercel.app/',
+            repo: 'https://github.com/nawagest/amharic-app'
         },
         {
             img: blogappimg,
@@ -51,7 +51,7 @@ const Projects = ({ isDark }) => {
                 faDatabase,
                 faNodeJs,
             ],
-            link: 'https://blog.nawagest.repl.co',
+            link: 'https://d2sw3f-3000.csb.app/',
             repo: 'https://github.com/nawagest/blog-app'
         },
         {
@@ -64,7 +64,7 @@ const Projects = ({ isDark }) => {
                 faBrain,
                 faDiscord,
             ],
-            link: 'https://brain-bot.nawagest.repl.co',
+            link: 'https://xpwlns-3001.csb.app/',
             repo: 'https://github.com/nawagest/brain-bot'
         },
         {
@@ -78,13 +78,13 @@ const Projects = ({ isDark }) => {
                 faSquareJs,
                 faNodeJs,
             ],
-            link: 'https://weather.nawagest.repl.co',
+            link: 'https://3kf3fm-3000.csb.app/',
             repo: 'https://github.com/nawagest/weather-app'
         },
         {
             img: chastyappimg,
             name: 'Chasty App',
-            description: 'I created this App for the Cheesgle Byte One Hackathon. The app was supposed to be a recipe app that featured food recipes that had to specifically include cheese. To do this I made my own API for the project using MongoDB Atlas and Mongoose.js so that other people could create recipes and that can be fetched through the API and displayed on the screen. The Hackathon was hosted on Replit and I came in third place winning Replit\'s hacker plan for a month.',
+            description: 'I created this App for the Cheesgle Byte One Hackathon. The app was supposed to be a recipe app that featured food recipes that had to specifically include cheese. To do this I made my own API for the project using MongoDB Atlas and Mongoose.js so that other people could create recipes and that can be fetched through the API and displayed on the screen. The Hackathon was hosted on Replit and I came in third place winning Replit\'s hacker plan for a month. Unfortunately the project is no longer up and working.',
             style: 'left',
             tags: [
                 faHtml5,
@@ -93,13 +93,13 @@ const Projects = ({ isDark }) => {
                 faNodeJs,
                 faDatabase,
             ],
-            link: 'https://chasty.nawagest.repl.co',
+            link: '#',
             repo: 'https://github.com/nawagest/one-byte-api'
         },
         {
             img: chatappimg,
             name: 'Chat App',
-            description: 'In this app you can chat in real-time with users from all over the internet. Me, @dragonprogammer, and @techpandapro, made this using Socket.io to connect users, MongoDB Atlas and Mongoose.js to save messages, Replit Auth so that users can sign in to the chat, and reCaptcha to prevent it being attack by bots.',
+            description: 'In this app you can chat in real-time with users from all over the internet. Me, @dragonprogammer, and @techpandapro, made this using Socket.io to connect users, MongoDB Atlas and Mongoose.js to save messages, Replit Auth so that users can sign in to the chat, and reCaptcha to prevent it being attack by bots. Unfortunately it is no longer up because the service we used to host it no longer allows us to host for free 😢',
             style: 'right',
             tags: [
                 faHtml5,
@@ -108,7 +108,7 @@ const Projects = ({ isDark }) => {
                 faDatabase,
                 faNodeJs,
             ],
-            link: 'https://chat.nawagest.repl.co',
+            link: 'https://chat.nawagest.repl.co/',
             repo: 'https://github.com/nawagest/'
         }
     ]

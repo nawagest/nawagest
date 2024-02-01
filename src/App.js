@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/partials/Navbar';
 
 function App() {
+  // eslint-disable-next-line
   const [_, setDarkMode] = useState('light');
   const darkMode = localStorage.getItem('darkMode');
 

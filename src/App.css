@@ -2,7 +2,7 @@
 
 #root {
     display: flex;
-    height: fit-content;
+    height: initial;
     flex-direction: column;
 }
 

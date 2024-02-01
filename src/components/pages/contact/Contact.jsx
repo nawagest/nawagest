@@ -46,8 +46,8 @@ const Contact = ({ isDark }) => {
                         <p>HTML</p>
                         <p>CSS</p>
                         <p>Javascript</p>
-                        <p>* Typescript</p>
-                        <p>* JSX/TSX</p>
+                        <p>* JSX</p>
+                        <p>* Python</p>
                     </div>
                     <div className={styles['list-section__list']}>
                         <h3>Frameworks</h3>
@@ -65,11 +65,13 @@ const Contact = ({ isDark }) => {
                     <div className={styles['list-section__list']}>
                         <h3>IDE's</h3>
                         <p>VS Code</p>
-                        <p>Intellij IDEA</p>
+                        <p>Intellij IDEA/Pycharm</p>
                     </div>
                     <div className={styles['list-section__list']}>
                         <h3>Hosting</h3>
                         <p>Replit</p>
+                        <p>Vercel</p>
+                        <p>Code Sandbox</p>
                         <p>Netlify</p>
                         <p>Github Pages</p>
                     </div>
@@ -90,7 +92,7 @@ const Contact = ({ isDark }) => {
             >
                 <h1>Resume</h1>
                 <div className={styles['info-resume__content']}>
-                    <p>Hey there! I am not going to put my resume on my website simply because it contains a lot of personal information. If you are willing to hire/work with me for a job that involves using some of the skills that I put in the skills section, then please feel free to contact me via <a href="nawagestdev@gmail.com">this email</a> or you can leave a message in the contact form saying that you would like to work on a project.</p>
+                    <p>Hey there! I am not going to put my resume on my website simply because it contains a lot of personal information. If you are willing to hire/work with me for a job that involves using some of the skills that I put in the skills section, then please feel free to contact me via <a href="mailto:nawagestdev@gmail.com">this email</a> or you can leave a message in the contact form saying that you would like to work on a project.</p>
                     <p>Thanks for taking the time to view my site,</p>
                     <p>Nathanael</p>
                 </div>
