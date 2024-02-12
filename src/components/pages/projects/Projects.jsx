@@ -64,7 +64,7 @@ const Projects = ({ isDark }) => {
                 faBrain,
                 faDiscord,
             ],
-            link: 'https://5ctf2c-3001.csb.app/',
+            link: 'https://psv933-3001.csb.app/',
             repo: 'https://github.com/nawagest/brain-bot'
         },
         {
