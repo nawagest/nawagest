@@ -37,7 +37,7 @@ const Home = ({ isDark }) => {
                 }}
             >
                 <h1>About</h1>
-                <p>Hello there! My name is Nathanael and I'm 16 year old American-born Ethiopian apsiring to become a full stack web developer. Some of my hobbies include coding, soccer, and swimming. Now as for how I got here, I started out coding in Scratch. My friend introduced me to it when I was 10 years old. I coded on Scratch for a while and learned the fundamentals of coding. Then around the time from when I was 11-12 I started learning Java on Udemy. I kinda liked Java but didn't continue through with it. After just learning some fundamentals of Java, I started leaerning some HTML and CSS, and that's when I figured out that I really enjoyed web development. I pursued learning the basics of web development and by the time I was 14 I was learning JavaScript through Udemy. A year later, when I was 15, I learned backend web development using Node.js and Express.js through another Udemy course. And now I am learning React.js (which is what I used to make this site)! I am currently learning React.js and with that I hope to use Next.js, Redux.js, and so much more! If you would like to view the courses I used to become the programmer I am today, checkout my blog!</p>
+                <p>Hello there! My name is Nathanael and I'm 17 year old American-born Ethiopian apsiring to become a full stack web developer. Some of my hobbies include coding, soccer, and swimming. Now as for how I got here, I started out coding in Scratch. My friend introduced me to it when I was 10 years old. I coded on Scratch for a while and learned the fundamentals of coding. Then around the time from when I was 11-12 I started learning Java on Udemy. I kinda liked Java but didn't continue through with it. After just learning some fundamentals of Java, I started leaerning some HTML and CSS, and that's when I figured out that I really enjoyed web development. I pursued learning the basics of web development and by the time I was 14 I was learning JavaScript through Udemy. A year later, when I was 15, I learned backend web development using Node.js and Express.js through another Udemy course. And now I am learning React.js (which is what I used to make this site)! I am currently learning React.js and with that I hope to use Next.js, Redux.js, and so much more! If you would like to view the courses I used to become the programmer I am today, checkout my blog!</p>
             </motion.div>
             <motion.div 
                 className={`${styles.education__content} ${isDark === 'dark' ? styles.dark : ''}`}
@@ -50,7 +50,7 @@ const Home = ({ isDark }) => {
                 }}
             >
                 <h1>Education</h1>
-                <p>Currently I'm a junior in high school (11th grade). I do not take any computer science courses at school but I gained a lot of my programming knowledge from Udemy and watching a lot of Youtube videos. </p>
+                <p>Currently I'm a senior in high school (12th grade). I do not take any computer science courses at school but I gained a lot of my programming knowledge from Udemy and watching a lot of Youtube videos. </p>
             </motion.div>
             <motion.div 
                 className={`${styles.skills__content} ${isDark === 'dark' ? styles.dark : ''}`}

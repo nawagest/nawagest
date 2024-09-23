@@ -41,7 +41,7 @@ const Projects = ({ isDark }) => {
         },
         {
             img: blogappimg,
-            name: 'Blog App',
+            name: 'Blog App (not working)',
             description: 'I originally created this app for the purpose of using MongoDB Atlas and Mongoose.js. It then turned out to be a nicely functioning blog app that I actually used to tell some of my stories. I don\'t use it much anymore but it was great practice for me to use all my skill to build such an app.',
             style: 'right',
             tags: [
@@ -56,7 +56,7 @@ const Projects = ({ isDark }) => {
         },
         {
             img: brainbotimg,
-            name: 'Brain Bot',
+            name: 'Brain Bot (not working)',
             description: 'This project was my first ever Discord bot. I one day had the idea of creating a discord bot integrating the features of ChatGPT-3 AI. Using Open AI\'s API, and Discord\'s bot API, I was able to build a functioning AI chat bot with additionally features as well!',
             style: 'left',
             tags: [
@@ -69,7 +69,7 @@ const Projects = ({ isDark }) => {
         },
         {
             img: weatherappimg,
-            name: 'Weather App',
+            name: 'Weather App (not working)',
             description: 'This was the first app that I made using Node.js. It uses OpenWeatherMap\'s API to fetch current weather data! It also uses JavaScript\'s built in Geolocation API so that when enabled, you can easily view the weather in your area with just a click of a button.',
             style: 'right',
             tags: [
@@ -83,7 +83,7 @@ const Projects = ({ isDark }) => {
         },
         {
             img: chastyappimg,
-            name: 'Chasty App',
+            name: 'Chasty App (no longer available)',
             description: 'I created this App for the Cheesgle Byte One Hackathon. The app was supposed to be a recipe app that featured food recipes that had to specifically include cheese. To do this I made my own API for the project using MongoDB Atlas and Mongoose.js so that other people could create recipes and that can be fetched through the API and displayed on the screen. The Hackathon was hosted on Replit and I came in third place winning Replit\'s hacker plan for a month. Unfortunately the project is no longer up and working.',
             style: 'left',
             tags: [
@@ -98,7 +98,7 @@ const Projects = ({ isDark }) => {
         },
         {
             img: chatappimg,
-            name: 'Chat App',
+            name: 'Chat App (no longer available)',
             description: 'In this app you can chat in real-time with users from all over the internet. Me, @dragonprogammer, and @techpandapro, made this using Socket.io to connect users, MongoDB Atlas and Mongoose.js to save messages, Replit Auth so that users can sign in to the chat, and reCaptcha to prevent it being attack by bots. Unfortunately it is no longer up because the service we used to host it no longer allows us to host for free 😢',
             style: 'right',
             tags: [

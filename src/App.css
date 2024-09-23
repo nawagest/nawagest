@@ -2,7 +2,7 @@
 
 #root {
     display: flex;
-    height: initial;
+    height: 100%;
     flex-direction: column;
 }
 
